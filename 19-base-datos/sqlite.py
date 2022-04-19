@@ -9,13 +9,13 @@ cursor = conexion.cursor()
 
 #crear tabla
 cursor.execute("""
-    CREATE TABLE IF NOT EXISTS productos ( 
+    CREATE TABLE IF NOT EXISTS productos (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         titulo varchar (255),
         descripcion text,
         precio int(255)
         );
-""")    
+""")
 
 conexion.commit()
 
@@ -49,7 +49,7 @@ print(productos)
 
 for producto in productos:
     print("ID:",producto[0])
-    print("Titulo:",producto[1])
+    print("Titulo: ",producto[1])
     print("Descripcion:",producto[2])
     print("Precio:",producto[3])
     print("\n")
