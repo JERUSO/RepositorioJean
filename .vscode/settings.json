@@ -1,0 +1,15 @@
+{
+    "python.globalModuleInstallation": true,
+    "python.pythonPath": "/Volumes/Locales/Cursos 2021/Udemy/Aprender Python3, django, flask y tkinter/",
+    "python.analysis.extraPaths": [
+        "./12. modulos",
+        "./11 - ejercicios",
+        "./13 - paquetes",
+        "./19-base-datos"
+    ],
+    "python.autoComplete.extraPaths": [
+
+
+    
+    ]
+}
